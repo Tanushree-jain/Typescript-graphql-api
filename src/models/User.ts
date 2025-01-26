@@ -1,11 +1,11 @@
 import { Sequelize, DataTypes, Model } from 'sequelize';
-import { sequelize } from '../database'; // Adjust the path as necessary
+import { sequelize } from '../database'; 
 
 class User extends Model {
     public id!: number;
     public username!: string;
-    public email!: string; // New email field
-    public password!: string; // Store hashed password
+    public email!: string; 
+    public password!: string; 
 }
 
 User.init({

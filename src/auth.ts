@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 
-const JWT_SECRET = "41c80437abeb08a3e66ffa668763e456a780bac7749110cace293aea1e95cd981e83574615033826e65102dfecdf477a078f0ec5feb1681c9afec59842a63540";
+const JWT_SECRET = "Your_Secret_key";
 
 // Function to generate a JWT token
 export const generateToken = (userId: string) => {

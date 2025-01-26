@@ -1,7 +1,6 @@
 import express from 'express';
 import { graphqlHTTP } from 'express-graphql';
 import schema from './schemas/userSchema'; // Import the user schema
-// import { authenticateToken } from './auth'; // Ensure this path is correct
 
 import NodeCache from 'node-cache';
 
